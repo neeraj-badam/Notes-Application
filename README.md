@@ -10,11 +10,11 @@ pip install -r requirements.txt
 ## Running The App
 
 ```bash
-python main.py
+python app.py
 ```
 or
 ```bash
-py main.py
+py app.py
 ```
 
 
