@@ -2,9 +2,6 @@ from flask import Blueprint, render_template, request, flash, redirect, url_for
 from .models import User
 from . import db
 from flask_login import login_user, login_required, logout_user, current_user
-from passlib.context import CryptContext
-
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 auth = Blueprint('auth', __name__)
 
